@@ -1,0 +1,301 @@
+*
+{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+  }
+
+
+#logo-wiki
+{
+    width: 80%;
+    
+    padding-top: 10%;
+    display:block;
+    margin:auto;
+}
+/*----------------------------------------------Header----------------------*/
+header
+{
+    float:left;
+    
+    width: 89%;
+    height: 200px;
+}
+#sesion
+{
+    width: 100%;
+    height: 20%;
+    
+}
+#sesion p
+{
+    float: right;
+    padding-right: 1%;
+    font-size: 12px;
+}
+
+#menu
+{
+    width: 100%;
+    height: 20%;
+    border: 0 none gray;
+    
+    
+}
+#menu li
+{
+    border: 0 none gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.nav-header
+{
+    
+    
+}
+.nav-header li
+{
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+}
+
+.nav-header li a
+{
+    text-decoration: none;
+    
+}
+#espaciado
+{
+    padding-left: 700px;
+}
+
+#buscador
+{
+    border: 1px rgb(141, 139, 139) solid;
+    width: 21%;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: gray;
+    
+}
+#subtitulo
+{
+    font-style: italic;
+    font-size: 15px;
+    padding-top: 10px;
+    
+}
+#subtitulo p
+{
+    padding-left:40px;
+    line-height: 2;
+}
+
+h1
+{
+    margin:0;
+    padding:10px 30px;
+    font-size: 30px;
+    font-family:'Georgia';
+    font-weight: normal;
+    padding-bottom: 0;
+    border: 0 none gray;
+    border-bottom: 1px solid gray;
+}
+
+/*----------------------------------------------Fin Header-------------------*/
+
+/*----------------------------------------------Nav----------------------*/
+nav
+{
+    font-size: 12px;
+    float: left;
+    width: 11%;
+    background:#f4f1f0;
+    height: 1000px; 
+}
+
+nav ul 
+{
+    list-style-type: none;
+    padding: 10%;
+    margin:0;  
+}
+nav h4
+{
+    padding-left:10%;
+    margin:0;
+    color:gray;
+    font-weight: normal;
+}
+/*----------------------------------------------Fin-Nav-------------------*/
+
+#sub ul a li
+{
+    text-decoration: none;
+}
+
+li
+{
+    line-height: 1.5;
+}
+
+
+/*Articulo*/
+
+article
+{
+    width: 67%;
+    float: left;
+    
+}
+
+#articulo p
+{
+    padding:10px 20px ;
+    line-height: 1.5;
+    font-size: 15px;
+    
+}
+
+/*Fin-Articulo*/
+
+/*see-also*/
+
+#see-also ul
+{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#see-also h2
+{
+    font-family:'Georgia';
+    font-weight: normal;
+    padding-bottom: 0;
+    border: 0 none gray;
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+    
+}
+#see-also span
+{
+    font-size: 15px;
+}
+#see-also a
+{
+    text-decoration: none;
+}
+
+/*Fin-see-also*/
+
+/*Tabla aside*/
+aside
+{
+    width: 22%;
+    float: right;
+    height:800px;
+    
+}
+
+#tabla
+{
+    margin-right: 20px;
+    border: 1px solid gray;
+    /*background-color: #f9f9f9;*/
+    
+}
+
+#tabla h2
+{
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #C3D6EF;
+}
+
+#tabla p
+{
+    background-color: #DCDCDC;
+    font-size: 13px;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+#tabla p a
+{
+    text-decoration: none;
+}
+
+#tabla img
+{
+    display:block;
+    margin:auto;
+    width: 97%;
+}
+#tabla table
+{
+    font-size: 12px;
+    text-align: left;
+    border-spacing: 10px;
+}
+#tabla th
+{
+    width: 30%;
+    vertical-align: top;
+}
+
+#tabla td
+{
+    margin-bottom: 10px;
+    width:70%;
+}
+#tabla ul
+{
+    padding-left:20px;
+}
+#tabla span
+{
+    
+}
+#rusia
+{
+    width: 5;
+    height: 10px;
+}
+/*Fin-Tabla aside*/
+
+/*Categorias*/
+#categorias
+{
+    width: 50%;
+    border: 1px solid gray;
+    height: 30px;
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #f9f9f9;
+}
+#categorias p a
+{
+    text-decoration: none;
+    
+}
+
+
+/*FinCategorias*/
